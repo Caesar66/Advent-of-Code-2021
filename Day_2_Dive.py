@@ -29,8 +29,8 @@ def getPosition(list_):
             aim += v
     return pos, depth
 
-with open("Day_2_input_file.txt", 'r') as depth_file:
-    instructions = [line.split() for line in depth_file]
+with open("Day_2_input_file.txt", 'r') as file:
+    instructions = [line.split() for line in file]
 
 print(getHorizontalPosition(instructions))
 print(getDepth(instructions))

@@ -125,7 +125,7 @@ def getTopThreeBaisinsSizes(lows):
     return big_three
 
 def getPosList():
-    with open("heightmap.txt", 'r') as hmap_txt:
+    with open("Day_9_input_file.txt", 'r') as hmap_txt:
         pos_list = []
         for line in hmap_txt:
             l_str = list(line.rstrip())

@@ -13,7 +13,7 @@ def getSumIncrementCounter(list_):
             counter += 1
     return counter
 
-with open("Day_1_input.txt", 'r') as depth_file:
+with open("Day_1_input_file.txt", 'r') as depth_file:
     depths = [int(line.rstrip()) for line in depth_file]
 
 print(getIncrementCounter(depths))

@@ -102,7 +102,7 @@ def getOrderWinTable(tables, line_size, draws):
 def getColumnSize(table_size, line_size):
     return int(table_size/line_size)
     
-with open("Day_4_file_input.txt", 'r') as file:
+with open("Day_4_input_file.txt", 'r') as file:
     draws = file.readline().rstrip().split(',')
     tables = [line.rstrip() for line in file]
     line_size = len(tables[1].split())

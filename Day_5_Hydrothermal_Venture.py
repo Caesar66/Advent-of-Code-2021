@@ -138,7 +138,7 @@ def main(segments, diagonals=False):
     return None
 
 if __name__ == '__main__':
-    input_file = "Day_5_file_input.txt"
+    input_file = "Day_5_input_file.txt"
     segments = getSegments(input_file)
     #print(segments)
     #print(getNonDiagonals(segments))

@@ -41,7 +41,7 @@ def main(fish_list, days_cycle):
     return None
 
 if __name__ == '__main__':
-    input_file = "input.txt"
+    input_file = "Day_6_input_file.txt"
     fish_list = getFishList(input_file)
 
     main(fish_list, 256)

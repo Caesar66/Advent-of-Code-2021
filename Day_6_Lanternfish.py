@@ -1,5 +1,3 @@
-import time
-
 def getFishList(input_file):
     with open(input_file, 'r') as file:
         fish_str = file.readline()
